@@ -52,9 +52,26 @@ git commit -m "提交信息" 将暂存区文件提交到仓库（某个功能完
 [工作区] ——git commit -a -m "xxx"——> [仓库repo](vim 编辑器操作)
 
 
+
+git reset --soft commit_id
+git reset --hard commit_id
+git reset --mixed commit_id(默认) = git reset commit_id
+
+HEAD:
+HEAD^:
+HEAD ~ n:
+
+
+[工作区] <——git add .——> [暂存区] <——git commit -m "xxx"——> [仓库repo]
 ```
 
 
+
+查看
+
+```
+git log
+```
 
 
 
