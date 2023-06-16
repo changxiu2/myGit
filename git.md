@@ -34,15 +34,25 @@ $ git config --global user.email johndoe@example.com
 
 
 
+
+
+```
 git config --list
-
-```
-
 ```
 
 
 
+```js
+git add . 将所有文件放到暂存区（经常做的）
 
+git commit -m "提交信息" 将暂存区文件提交到仓库（某个功能完成的时候/在必要时候提交）
+
+[工作区] ——git add .——> [暂存区] ——git commit -m "xxx"——> [仓库repo]
+
+[工作区] ——git commit -a -m "xxx"——> [仓库repo](vim 编辑器操作)
+
+
+```
 
 
 

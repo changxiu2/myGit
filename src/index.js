@@ -5,6 +5,8 @@ import "@/style/index.css"
 import '@/index.css'
 console.log(a); 
 
+
+
 jQuery(function(){
     console.log(123);
 });
@@ -23,3 +25,12 @@ console.log(_);
 
 // console.log("process.env.F",process.env.F)
 //50:88
+
+
+
+
+
+
+
+
+// 123456asmxksjnknsidhcsd心思哦吃的
