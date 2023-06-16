@@ -36,15 +36,9 @@ $ git config --global user.email johndoe@example.com
 
 git config --list
 
+```
 
-
-
-
-### 
-
-
-
-
+```
 
 
 
